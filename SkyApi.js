@@ -6,8 +6,8 @@ const userSky = require('./Data/Sky.json')
 const buyList = require('./Data/buyList.json')
 const app = express();
 const key = {
-    apiKey: '1Z07MBH-PSD4P1A-HEHN65Q-MGPY0KT',
-    uuid: '0fc07a2e-b65a-4b05-8ba3-5316a42de04f'
+    apiKey: process.env.API_KEY,
+    uuid: process.env.UUID'
 };
 
 const server = app.listen(3001, () => {
