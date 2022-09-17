@@ -1,0 +1,25 @@
+{
+  "name": "skydiscord_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SkyApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuiSara/SkyDiscord_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuiSara/SkyDiscord_API/issues"
+  },
+  "homepage": "https://github.com/MuiSara/SkyDiscord_API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ciql-json": "^1.9.6",
+    "express": "^4.18.1",
+    "uuid-apikey": "^1.5.3"
+  }
+}
